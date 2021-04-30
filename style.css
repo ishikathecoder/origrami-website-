@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: white;
+    
+}
+
+
+a:link{
+    padding-left:40px;
+    color: blanchedalmond;
+    font-size: larger;
+    border:solid;
+}
+a:any-link{
+    padding-right:40px;
+    color: blanchedalmond;
+    font-size: larger;
+    border:solid;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid img{
+   border: 2px solid black;
+   border-radius: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.item{
+    border-radius: 5px;
+    background-color:#5B3491;
+    width:310px;
+    font-family: fantasy;
+    text-decoration-color: blanchedalmond;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+background-color: blueviolet;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: white;
+}
+
+.body{
+    background-color: whitesmoke;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
